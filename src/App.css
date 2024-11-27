@@ -1042,9 +1042,8 @@ textarea{
     width: 250px;
     /* margin-left: -5px; */
   }
-  .our_story_img img{
+  .about_container_img img{
     width: 250px;
-    margin-left: 0px;
   }
   .notfound h1{
     font-size: 30px;

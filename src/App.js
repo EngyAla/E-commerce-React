@@ -17,7 +17,7 @@ import ChechOut from './pages/CheckOut';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/E-commerce-React'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />}/>

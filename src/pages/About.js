@@ -12,7 +12,7 @@ function About(){
             <div className="container">
             <p className="mt-4 mb-5"><span className="notfound_span">Home /</span> About</p>
             </div>
-            <div className='container'>
+            {/* <div className='container'>
             <div className="our_story row">
                 <div className="our_story_txt col-sm-8 col-md-6 col-lg-4">
                     <h1>Our Story</h1>
@@ -23,6 +23,18 @@ function About(){
                 <img src={registerationImg} alt='' width={"500px"} />
                 </div>
             </div>
+            </div> */}
+            <div className='container'>
+                <div className='about_container row'>
+                    <div className='about_container_txt col-sm-10 col-md-6 col-lg-5'>
+                        <h1>Our Story</h1>
+                        <p>Launced in 2015, Exclusive is South Asia’s premier online shopping makterplace with an active presense in Bangladesh. Supported by wide range of tailored marketing, data and service solutions, Exclusive has 10,500 sallers and 300 brands and serves 3 millioons customers across the region. </p>
+                        <p>Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in categories ranging  from consumer.</p>
+                    </div>
+                    <div className='about_container_img col-sm-10 col-md-6 col-lg-5 mx-auto'>
+                        <img src={registerationImg} alt='' width={"500px"} />
+                    </div>
+                </div>
             </div>
             
 
