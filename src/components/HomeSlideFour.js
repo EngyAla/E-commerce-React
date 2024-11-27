@@ -1,8 +1,12 @@
 import BestSellingProducts from "./BestSellingProducts";
+import all_products from '../Assets/allproducts'
+
 
 function SlideFour(){
+    const all_products2 = all_products.slice(4, 8)
+
     return(
-    <>  
+    <> 
         <div className="container slide2">
             <hr />
             <div className="slide2_title">
@@ -16,9 +20,16 @@ function SlideFour(){
                 <button className='Slide2_but slide4_btn col-sm-12 col-md-6 col-lg-6'>View All</button>
             </div>
             <div className='slide2_products_slider row '>
-                <BestSellingProducts />
+            {
+                all_products2.map((product, i) =>{
+                    return(
+                    <BestSellingProducts key={i} id={product.id} image={product.image} discount={product.discount} title={product.title} price={product.price} old_price={product.old_price}/>
+                    )
+                })
+            }
             </div>
         </div>
+        
     </>
     )
 }

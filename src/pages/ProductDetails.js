@@ -3,10 +3,58 @@ import { Link, useParams } from "react-router-dom";
 import FlashSaleProducts from "../components/FlashSaleProducts";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../store/cart-slice";
-import all_products from '../Assets/allproducts.json'
+import all_products from '../Assets/allproducts'
+import data from '../Assets/allproducts'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 function ProductDetails(){
+    const settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        // nextArrow: <SampleNextArrow />,
+        // prevArrow: <SamplePrevArrow />,
+
+        responsive: [
+            {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true
+            }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+                },
+            {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+            }
+        ]
+        };
     const [product, setProduct] = useState([])
     const [quanitiy, setQuanitiy] = useState(1)
     let {productId} = useParams()
@@ -153,7 +201,17 @@ function ProductDetails(){
                 <span>Related Item</span>
             </div>
             <div className=''>
-                <FlashSaleProducts />
+            <div className="mt-5 w-90 mx-3">
+                <div className="mt-5 pb-3">
+                <Slider {...settings}>
+                {
+                    data.map((product, i)=>{
+                        return <FlashSaleProducts key={i} id={product.id} image={product.image} discount={product.discount} title={product.title} price={product.price} old_price={product.old_price} />
+                    })
+                }
+                </Slider>
+                </div>
+            </div>
             </div>
             <button className='Slide2_but'>View All Products</button>
         </div>

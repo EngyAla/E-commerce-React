@@ -5,11 +5,15 @@ import { addToCart } from "../store/cart-slice";
 import { useDispatch, useSelector } from "react-redux";
 import { removeFromFav } from "../store/fav-slice";
 import BestSellingProducts from "../components/BestSellingProducts";
+import all_products from '../Assets/allproducts'
+
 
 function Favourite(){
     const cart = useSelector((state) => state.cart)
     const fav = useSelector((state) => state.fav)
     const dispatch = useDispatch()
+    const all_products2 = all_products.slice(4, 8)
+
 
     const settings = {
         dots: false,
@@ -93,7 +97,7 @@ function Favourite(){
                                     <h6>{product.title}</h6>
                                     <div className="Slide2_prices">
                                         <p>${product.price}</p>
-                                        <p className="old_price">$</p>
+                                        <p className="old_price">${product.old_price}</p>
                                     </div>
                                 </div>  
                             </div>
@@ -114,7 +118,13 @@ function Favourite(){
                 <button className='Slide2_but slide4_btn fav_btn mt-1' style={{color: "black"}}>See All</button>
             </div>
             <div className='slide2_products_slider row '>
-                <BestSellingProducts />
+            {
+                all_products2.map((product, i) =>{
+                    return(
+                    <BestSellingProducts key={i} id={product.id} image={product.image} discount={product.discount} title={product.title} price={product.price} old_price={product.old_price}/>
+                    )
+                })
+            }
             </div>
         </div>
         </>

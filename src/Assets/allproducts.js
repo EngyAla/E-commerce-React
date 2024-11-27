@@ -1,4 +1,22 @@
-[
+import p1 from "../Assets/gamepad.png"
+import p2 from "../Assets/keyboard.png"
+import p3 from "../Assets/LCD.png"
+import p4 from "../Assets/chair.png"
+import p5 from "../Assets/coat.png"
+import p6 from "../Assets/bag.png"
+import p7 from "../Assets/RGB-liquid.png"
+import p8 from "../Assets/bookShell.png"
+import p9 from "../Assets/a06f5d8e-0269-4aa2-a531-ed7290440855_1.259362d0d8c11e73aed87b8eebc626aa_1_-removebg-preview.png"
+import p10 from "../Assets/camera.png"
+import p11 from "../Assets/laptop.png"
+import p12 from "../Assets/curology.png"
+import p13 from "../Assets/kids-car.png"
+import p14 from "../Assets/choose.png"
+import p15 from "../Assets/play-station.png"
+import p16 from "../Assets/jacket.png"
+
+
+let allProducts = [
     {
         "id": "1",
         "title": "HAVIT HV-G92 Gamepad",
@@ -7,7 +25,7 @@
         "discount": "-40%",
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "category": "men's clothing",
-        "image": "https://ncll.com.bd/image/cache/catalog/products/Havit/Gamepad/HAVIT%20HV-G92%20Gamepad-1-400x400.jpg",
+        "image": p1,
         "rating": {
             "rate": 3.9
         }
@@ -20,7 +38,7 @@
         "discount": "-35%",
         "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
         "category": "men's clothing",
-        "image": "https://m.media-amazon.com/images/I/71EalY9J-fL._AC_SX679_.jpg",
+        "image": p2,
         "rating": {
             "rate": 4.1
         }
@@ -33,7 +51,7 @@
         "discount": "-30%",
         "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
         "category": "men's clothing",
-        "image": "https://s.alicdn.com/@sc04/kf/H17a54857a74141a390d95b1b5a8a9c7fC.jpg_720x720q50.jpg",
+        "image": p3,
         "rating": {
             "rate": 4.7
         }
@@ -46,7 +64,7 @@
         "discount": "-25%",
         "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
         "category": "men's clothing",
-        "image": "https://www.pendlevillagefurniture.co.uk/cdn/shop/files/Florence-Grey-Fabric-Dining-Chair-Oak-Legs-002.webp?v=1730672172",
+        "image": p4,
         "rating": {
             "rate": 2.1
         }
@@ -59,7 +77,7 @@
         "discount": "-75%",
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhXEt--h90HQsESARJWDUlx3zTwVNFjhJYMv1RpHT6T1uH4f3T",
+        "image": p5,
         "rating": {
             "rate": 3.9
         }
@@ -72,7 +90,7 @@
         "discount": "-40%",
         "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0HJY0Y9eC3cLocAPSMNOQ2-QoDyjMurTzUSUQCpijMTJV-ZK4",
+        "image": p6,
         "rating": {
             "rate": 4.1
         }
@@ -85,7 +103,7 @@
         "discount": "-10%",
         "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSp5yqc9rMHEky0gXiQbvfYKpITss7JfEvBS2v0beK9MQ3kSgzv",
+        "image": p7,
         "rating": {
             "rate": 4.7
         }
@@ -98,7 +116,7 @@
         "discount": "-5%",
         "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRLBvV3YtLCLSzMxqnOmgWIU-2MiEdDdguYGXi-DcpKMi1DX71a",
+        "image": p8,
         "rating": {
             "rate": 2.1
         }
@@ -110,7 +128,7 @@
         "discount": "-60%",
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "category": "men's clothing",
-        "image": "https://i5.walmartimages.com/asr/a06f5d8e-0269-4aa2-a531-ed7290440855_1.259362d0d8c11e73aed87b8eebc626aa.jpeg",
+        "image": p9,
         "rating": {
             "rate": 3.9
         }
@@ -122,7 +140,7 @@
         "discount": "-30%",
         "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
         "category": "men's clothing",
-        "image": "https://epicsoko.com/public/uploads/images/22-07-2023/64bbccf2c49d8.webp",
+        "image": p10,
         "rating": {
             "rate": 4.1
         }
@@ -134,7 +152,7 @@
         "discount": "-25%",
         "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR1a__V42lk2E0ko_rltFWh1SmrPuJ3wZBxv_WeOJDgHzsqNUbE",
+        "image": p11,
         "rating": {
             "rate": 4.7
         }
@@ -146,7 +164,7 @@
         "discount": "-3%",
         "description": "The color could be slightly different between on the screen and in practice. / Please note that body builds vary by person, therefore, detailed size information should be reviewed below on the product description.",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRb9S138BXVUCNiNG7fn9X5AynaWO7BOieHqPxZX3gMe0elA52s",
+        "image": p12,
         "rating": {
             "rate": 2.1
         }
@@ -158,7 +176,7 @@
         "discount": "-20%",
         "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTLwG9ctOrLVl-ObrbZ_UTwp87I_683KesRSwhwKJNZ0RFGXcdL",
+        "image": p13,
         "rating": {
             "rate": 3.9
         }
@@ -170,7 +188,7 @@
         "discount": "-70%",
         "description": "Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScCbdm7dedvS9Xhb8hnPB7N18nZIN-tRD6hPMYjmOkOzopxh61",
+        "image": p14,
         "rating": {
             "rate": 4.1
         }
@@ -182,7 +200,7 @@
         "discount": "-40%",
         "description": "great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.",
         "category": "men's clothing",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSii1H8xqZlTQ3C1Q-d7Iu1ebtpIc1xqDb9ZaJ4AV5ZKdohwnFt",
+        "image": p15,
         "rating": {
             "rate": 4.7
         }
@@ -196,9 +214,11 @@
         "category": "men's clothing",
         "color1": "",
         "color2": "",
-        "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTnao5ogatxpG04w9C4aoIAW6B55DTK3-kP3H6wTgxbBflpPyIE",
+        "image": p16,
         "rating": {
             "rate": 2.1
         }
         }
 ]
+
+export default allProducts;

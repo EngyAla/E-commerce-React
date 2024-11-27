@@ -1,5 +1,9 @@
 import ExploreOurProducts from "./ExploreOurProducts";
+import all_products from '../Assets/allproducts'
+
 function SlideSix(){
+    const all_products3 = all_products.slice(8, 17)
+
     return(
         <>
         <div className="container slide2">
@@ -13,7 +17,13 @@ function SlideSix(){
                 <h3>Explore Our Products</h3>
             </div>
             <div className='slide2_products_slider slide6_products_slider row'>
-                <ExploreOurProducts />
+            {
+            all_products3.map((product, i) =>{
+                return(
+                <ExploreOurProducts  key={i} id={product.id} image={product.image} discount={product.discount} title={product.title} price={product.price} old_price={product.old_price}/>
+            )
+        })
+    }
             </div>
             <button className='Slide2_but'>View All Products</button>
         </div>
