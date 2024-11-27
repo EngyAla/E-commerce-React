@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/E-commerce-React/static/css/main.3f755a88.css",
+    "main.js": "/E-commerce-React/static/js/main.8045709f.js",
+    "static/js/453.4297e0f3.chunk.js": "/E-commerce-React/static/js/453.4297e0f3.chunk.js",
+    "static/media/ (1).png": "/E-commerce-React/static/media/5df8103b281240ce5bafe5dd7d215ab8 (1).75f9dbfc91498bf62a76.png",
+    "static/media/png": "/E-commerce-React/static/media/ccb54c528f9bcf326ca48ea29bd6d890.4061e3a50a22d597af86.png",
+    "static/media/WhatsApp Image 2024-11-27 at 18.42.46_2082b710.jpg": "/E-commerce-React/static/media/WhatsApp Image 2024-11-27 at 18.42.46_2082b710.4306596fd873c53190f2.jpg",
+    "static/media/jpg": "/E-commerce-React/static/media/7215f42e5883a64157f0aa3a4d1a866a.ea3d95a4fcd8ae879dba.jpg",
+    "static/media/jpeg": "/E-commerce-React/static/media/a1c7dc5b68a42239311e510f54d8cd59.c90deadab061b8bfcdc5.jpeg",
+    "static/media/WhatsApp Image 2024-11-27 at 18.34.36_c2fbd5f8.jpg": "/E-commerce-React/static/media/WhatsApp Image 2024-11-27 at 18.34.36_c2fbd5f8.44156b5ea933b06deffd.jpg",
+    "static/media/images__1_-removebg-preview.png": "/E-commerce-React/static/media/images__1_-removebg-preview.5d5a5f50a03e079e6f33.png",
+    "static/media/apple-icon.png": "/E-commerce-React/static/media/apple-icon.fa1aaa27a55aa3c4d3fa.png",
+    "static/media/165413-middle-removebg-preview.png": "/E-commerce-React/static/media/165413-middle-removebg-preview.25bd720361e0e9f7f762.png",
+    "static/media/image_processing20210616-28548-sy70g.png": "/E-commerce-React/static/media/image_processing20210616-28548-sy70g.788b656692577c1189a2.png",
+    "static/media/slick.svg": "/E-commerce-React/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/E-commerce-React/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/E-commerce-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/E-commerce-React/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/E-commerce-React/index.html",
+    "main.3f755a88.css.map": "/E-commerce-React/static/css/main.3f755a88.css.map",
+    "main.8045709f.js.map": "/E-commerce-React/static/js/main.8045709f.js.map",
+    "453.4297e0f3.chunk.js.map": "/E-commerce-React/static/js/453.4297e0f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f755a88.css",
+    "static/js/main.8045709f.js"
+  ]
+}
