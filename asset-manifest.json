@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/E-commerce-React/static/css/main.0afa3173.css",
-    "main.js": "/E-commerce-React/static/js/main.ed24eb62.js",
+    "main.css": "/E-commerce-React/static/css/main.c299ea96.css",
+    "main.js": "/E-commerce-React/static/js/main.e3a89202.js",
     "static/js/453.4297e0f3.chunk.js": "/E-commerce-React/static/js/453.4297e0f3.chunk.js",
     "static/media/ (1).png": "/E-commerce-React/static/media/5df8103b281240ce5bafe5dd7d215ab8 (1).75f9dbfc91498bf62a76.png",
     "static/media/png": "/E-commerce-React/static/media/ccb54c528f9bcf326ca48ea29bd6d890.4061e3a50a22d597af86.png",
+    "static/media/kids-car.png": "/E-commerce-React/static/media/kids-car.59ec3240b0057e64feab.png",
+    "static/media/bag.png": "/E-commerce-React/static/media/bag.8bd38e152ff1d589fb36.png",
+    "static/media/coat.png": "/E-commerce-React/static/media/coat.e6a9f3eff1ad0ab7e83c.png",
+    "static/media/choose.png": "/E-commerce-React/static/media/choose.a86a1f1344bdd5462073.png",
+    "static/media/jacket.png": "/E-commerce-React/static/media/jacket.cabbdb06d0d0fa028789.png",
+    "static/media/gamepad.png": "/E-commerce-React/static/media/gamepad.b8198f1cbee109c10df0.png",
+    "static/media/a06f5d8e-0269-4aa2-a531-ed7290440855_1._1_-removebg-preview.png": "/E-commerce-React/static/media/a06f5d8e-0269-4aa2-a531-ed7290440855_1.259362d0d8c11e73aed87b8eebc626aa_1_-removebg-preview.971f834216c70b74b69a.png",
+    "static/media/chair.png": "/E-commerce-React/static/media/chair.20c28e37ba0345d908e8.png",
+    "static/media/camera.png": "/E-commerce-React/static/media/camera.8d7f4dbe5737d89b0fc1.png",
+    "static/media/bookShell.png": "/E-commerce-React/static/media/bookShell.adc9bd338bce786d66e5.png",
+    "static/media/LCD.png": "/E-commerce-React/static/media/LCD.7da72f532ca02327f5f8.png",
     "static/media/WhatsApp Image 2024-11-27 at 18.42.46_2082b710.jpg": "/E-commerce-React/static/media/WhatsApp Image 2024-11-27 at 18.42.46_2082b710.4306596fd873c53190f2.jpg",
+    "static/media/curology.png": "/E-commerce-React/static/media/curology.6ec7a39ce0c429aaace5.png",
     "static/media/jpg": "/E-commerce-React/static/media/7215f42e5883a64157f0aa3a4d1a866a.ea3d95a4fcd8ae879dba.jpg",
+    "static/media/RGB-liquid.png": "/E-commerce-React/static/media/RGB-liquid.39732c16ae63cae496d2.png",
+    "static/media/keyboard.png": "/E-commerce-React/static/media/keyboard.b4530499fcbf462a7767.png",
+    "static/media/laptop.png": "/E-commerce-React/static/media/laptop.760b78d0cbbc06203901.png",
     "static/media/jpeg": "/E-commerce-React/static/media/a1c7dc5b68a42239311e510f54d8cd59.c90deadab061b8bfcdc5.jpeg",
+    "static/media/play-station.png": "/E-commerce-React/static/media/play-station.df01764e661683423351.png",
     "static/media/WhatsApp Image 2024-11-27 at 18.34.36_c2fbd5f8.jpg": "/E-commerce-React/static/media/WhatsApp Image 2024-11-27 at 18.34.36_c2fbd5f8.44156b5ea933b06deffd.jpg",
     "static/media/images__1_-removebg-preview.png": "/E-commerce-React/static/media/images__1_-removebg-preview.5d5a5f50a03e079e6f33.png",
     "static/media/apple-icon.png": "/E-commerce-React/static/media/apple-icon.fa1aaa27a55aa3c4d3fa.png",
@@ -18,12 +34,12 @@
     "static/media/slick.ttf": "/E-commerce-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/E-commerce-React/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/E-commerce-React/index.html",
-    "main.0afa3173.css.map": "/E-commerce-React/static/css/main.0afa3173.css.map",
-    "main.ed24eb62.js.map": "/E-commerce-React/static/js/main.ed24eb62.js.map",
+    "main.c299ea96.css.map": "/E-commerce-React/static/css/main.c299ea96.css.map",
+    "main.e3a89202.js.map": "/E-commerce-React/static/js/main.e3a89202.js.map",
     "453.4297e0f3.chunk.js.map": "/E-commerce-React/static/js/453.4297e0f3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0afa3173.css",
-    "static/js/main.ed24eb62.js"
+    "static/css/main.c299ea96.css",
+    "static/js/main.e3a89202.js"
   ]
 }
