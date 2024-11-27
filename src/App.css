@@ -906,8 +906,11 @@ textarea{
   border-radius: 3px;
   color: #F5F5F5;
   margin-top: 30px;
-
 }
+.our_story_img img{
+  margin-left: 220px;
+}
+
 @media (max-width: 990px) {
   .cart_count{
     margin-left: 15px;
@@ -1041,6 +1044,7 @@ textarea{
   }
   .our_story_img img{
     width: 250px;
+    margin-left: 0px;
   }
   .notfound h1{
     font-size: 30px;
