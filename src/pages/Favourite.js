@@ -61,8 +61,8 @@ function Favourite(){
         <>
         <div className="container mt-4">
             <div className="row">
-                <p className="notfound_p col-sm-4 col-md-8"><span className="notfound_span">Home /</span> Wishlist ({fav.length})</p>
-                <button className="fav_btn col-sm-4 col-md-2 mt-3">Move All To Bag</button>
+                <p className=" col-sm-1 col-md-9 mt-3"><span className="">Home /</span> Wishlist ({fav.length})</p>
+                <button className="fav_btn col-sm-2 col-md-2 mt-3">Move All To Bag</button> 
             </div>
         </div>
 
