@@ -66,7 +66,7 @@ return (
                     <button className="cart_total_btn1">Coupon Code</button>
                     <button className="cart_total_btn2">Apply Coupon</button>
                 </div>
-                <div class="cart_total_table container col-sm-12 col-md-4">
+                <div class="cart_total_table container col-sm-10 col-md-4">
                     <h5>Cart Total</h5>
                     <table class="table table-hover">
                         <tbody>

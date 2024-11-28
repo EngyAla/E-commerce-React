@@ -1051,6 +1051,10 @@ textarea{
   .notfound p{
     font-size: 14px;
   }
+  .cart_total_btn2{
+    margin-left: -1px !important;
+    margin: 7px -4px;
+  }
 }
 
 @media (max-width: 1200px) {
