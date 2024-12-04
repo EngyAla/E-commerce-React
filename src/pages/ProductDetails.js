@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import FlashSaleProducts from "../components/FlashSaleProducts";
-import { useDispatch, useSelector } from "react-redux";
-import { addToCart, decreaseQuantity, increaseQuantity } from "../store/cart-slice";
+import { useDispatch } from "react-redux";
+import { addToCart } from "../store/cart-slice";
 import all_products from '../Assets/allproducts'
 import data from '../Assets/allproducts'
 import Slider from "react-slick";
@@ -128,17 +128,13 @@ function ProductDetails(){
                 </div>
                 <div className="productdetails_quantity_container">
                     <div className="productdetails_quantity_form">
-                        <div className="productdetails_minus" onClick={() => {dispatch(decreaseQuantity(product.id))
-                            handleMinuxQuantity()
-                        }}>
+                        <div className="productdetails_minus" onClick={handleMinuxQuantity}>
                             <h5>-</h5>
                         </div>
                         <div className="productdetails_quantity">
                             <h5>{quanitiy}</h5>
                         </div>
-                        <div className="productdetails_positive" onClick={() => {dispatch(increaseQuantity(product.id))
-                            handlePlusQuantity()
-                        }}>
+                        <div className="productdetails_positive" onClick={handlePlusQuantity}>
                             <h5>+</h5>
                         </div>
                     </div>
