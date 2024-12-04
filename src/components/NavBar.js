@@ -163,7 +163,7 @@ return(
             </div>
         </div>
     </nav>
-    {/* <hr className='line'/> */}
+    <hr className='line'/>
 </>
 )
 }

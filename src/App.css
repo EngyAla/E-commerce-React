@@ -51,10 +51,11 @@ color: #FAFAFA;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2px;
+  margin: 2px;
   color: black;
   transition: .32s ease-in-out;
   max-width: 55px;
+  padding: 0px 10px;
 }
 .nav_search{
   background-color: #efeded;
@@ -142,7 +143,7 @@ width: 30px;
   margin-top: -3px;
 }
 .categories{
-  /* border-right: 1px solid rgba(143, 143, 143, 0.629); */
+  border-right: 1px solid rgba(143, 143, 143, 0.629);
   margin-top: -16px;
 }
 .categories a{
@@ -1054,6 +1055,9 @@ textarea{
   .cart_total_btn2{
     margin-left: -1px !important;
     margin: 7px -4px;
+  }
+  .categories{
+    border-right: none;
   }
 }
 
